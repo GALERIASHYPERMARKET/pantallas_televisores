@@ -1,4 +1,4 @@
-import NavLink from "./NavLink";
+
 
 export const navLinks = [
   { name: "Menu", 
@@ -16,8 +16,5 @@ export const navLinks = [
     name: "",
     path: "/blog",
   },
-  {
-    name: <NavLink item="Contact Us" />,
-    path: "#contact",
-  },
+  
 ];

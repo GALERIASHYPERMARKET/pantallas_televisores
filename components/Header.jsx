@@ -1,4 +1,5 @@
 import Link from "next/link";
+import navLinks from "../utils/data"
 
 export default function Header() {
   return (
