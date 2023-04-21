@@ -1,5 +1,5 @@
 import Link from "next/link";
-import navLinks from "../utils/data"
+import {navLinks} from "../utils/data"
 
 export default function Header() {
   return (
@@ -8,7 +8,7 @@ export default function Header() {
         <h3>Example</h3>
       </div>
       <nav>
-        {navLinks.map((link, index) => {
+        {navLinks?.map((link, index) => {
           return (
             <ul>
               <Link href={link.path}>
